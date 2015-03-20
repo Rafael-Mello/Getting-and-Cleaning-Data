@@ -2,8 +2,10 @@ Getting and Cleaning Data - Course Project
 
 This repo was created to archive and share my work for the course project.
 The purpose of the project is to collect and clean a data set. The data provided represent data collected from the accelerometers from the Samsung Galaxy S smartphone, and can be obtained in this link:
-
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The assignment was to create a R script called run_analysis.R that does the following: 
 - Merges the training and the test sets to create one data set.
@@ -27,4 +29,4 @@ To read the file back into R, use the following commands:
   data <- read.table("tidy.txt", header = TRUE) 
   View(data)
 
-I thank TA David Hood for all the useful information about this project, available in the David's personal course project FAQ forum thread.
+I thank TA David Hood for all the useful information about this project, available in the "David's personal course project FAQ" Forum thread.
