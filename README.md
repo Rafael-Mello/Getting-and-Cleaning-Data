@@ -23,5 +23,8 @@ The script in this repo doesn't follow the steps stated above in the same order,
 - Then, the descriptive activity names are assigned
 - And finally, the new "tidy" data set is created.
 
+To read the file back into R, use the following commands:
+  data <- read.table("tidy.txt", header = TRUE) 
+  View(data)
 
-
+I thank TA David Hood for all the useful information about this project, available in the David's personal course project FAQ forum thread.
