@@ -17,23 +17,7 @@ The 'test' and 'training' sets have a group of variables, including the mean val
 	estimated from the following signals, as described in the features_info.txt that is also available with 
 	the dataset ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions):  
 		
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ , tGravityAcc-XYZ , tBodyAccJerk-XYZ , tBodyGyro-XYZ , tBodyGyroJerk-XYZ , tBodyAccMag , tGravityAccMag , tBodyAccJerkMag , tBodyGyroMag , tBodyGyroJerkMag , fBodyAcc-XYZ , fBodyAccJerk-XYZ , fBodyGyro-XYZ , fBodyAccMag , fBodyAccJerkMag , fBodyGyroMag , fBodyGyroJerkMag
 Note: Other variables available in the data set were not considered in this project.
 
 The only variables of interest for this project are the mean and standard values, so the script work with smaller 
